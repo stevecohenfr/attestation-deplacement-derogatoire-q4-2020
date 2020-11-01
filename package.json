@@ -21,7 +21,7 @@
     "preserve": "npm run build",
     "serve": "serve dist",
     "serve:dist": "serve dist",
-    "deploy": "cd dist && zip -r ../c19.zip . * && cd .. && rsync -a --progress c19.zip olympe:/home/steve/inbox && rm c19.zip && ssh olympe 'cd /var/www/c19/ && rm -rf * && unzip /home/steve/inbox/c19.zip -d . && rm /home/steve/inbox/c19.zip'"
+    "deploy": "cp src/shortcut-data.json dist/ && cd dist && zip -r ../c19.zip . * && cd .. && rsync -a --progress c19.zip olympe:/home/steve/inbox && rm c19.zip && ssh olympe 'cd /var/www/c19/ && rm -rf * && unzip /home/steve/inbox/c19.zip -d . && rm /home/steve/inbox/c19.zip'"
   },
   "repository": {
     "type": "git",

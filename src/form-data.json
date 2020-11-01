@@ -6,7 +6,7 @@
       "contentType": "firstname",
       "label": "Prénom",
       "autocomplete": "given-name",
-      "placeholder": "Camille"
+      "placeholder": "Homer"
     },
     {
       "key": "lastname",
@@ -14,7 +14,7 @@
       "contentType": "lastname",
       "label": "Nom",
       "autocomplete": "family-name",
-      "placeholder": "Dupont"
+      "placeholder": "Simpson"
     },
     {
       "key": "birthday",
@@ -24,7 +24,7 @@
       "autocomplete": "birthday",
       "pattern": "^([0][1-9]|[1-2][0-9]|30|31)\/([0][1-9]|10|11|12)\/(19[0-9][0-9]|20[0-1][0-9]|2020)",
       "maxlength": 10,
-      "placeholder": "01/01/1970"
+      "placeholder": "12/05/1956"
     }
   ],
   [
@@ -34,7 +34,7 @@
       "contentType": "cityofbirth",
       "label": "Lieu de naissance",
       "autocomplete": "off",
-      "placeholder": "Paris"
+      "placeholder": "Springfield"
     },
     {
       "key": "address",
@@ -42,7 +42,7 @@
       "contentType": "address",
       "label": "Adresse",
       "autocomplete": "adress-line1",
-      "placeholder": "999 avenue de France"
+      "placeholder": "123 rue bidon"
     },
     {
       "key": "city",
@@ -50,7 +50,7 @@
       "contentType": "city",
       "label": "Ville",
       "autocomplete": "address-level2",
-      "placeholder": "Paris"
+      "placeholder": "Springfield"
     },
     {
       "key": "zipcode",
@@ -58,7 +58,7 @@
       "contentType": "zipcode",
       "label": "Code Postal",
       "autocomplete": "postal-code",
-      "placeholder": "75001",
+      "placeholder": "12345",
       "inputmode": "numeric",
       "pattern": "[0-9]{5}",
       "min": 1000,
