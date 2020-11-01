@@ -1,0 +1,12 @@
+[
+  {
+    "firstname" : "Homer",
+    "lastname" : "Simpson",
+    "birthday": "12/05/1956",
+    "placeofbirth": "Springfield",
+    "address" : "123 rue bidon",
+    "city": "Springfield",
+    "zipcode": "12345",
+    "icon": "male"
+  }
+]
