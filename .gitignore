@@ -1,4 +1,5 @@
 .idea/
+src/shortcut-data.json
 
 # Created by https://www.toptal.com/developers/gitignore/api/node,code,linux,vim,windows,macos
 # Edit at https://www.toptal.com/developers/gitignore?templates=node,code,linux,vim,windows,macos

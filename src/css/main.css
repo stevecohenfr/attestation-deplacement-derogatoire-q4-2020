@@ -686,3 +686,24 @@ button.btn.btn-secondary.shortcut {
   flex-grow: 1;
   width: 33%;
 }
+
+@media (max-width: 640px) {
+  button.btn.btn-secondary.shortcut {
+    margin-bottom: 5px;
+    margin-right: 0;
+    width: 100%;
+  }
+
+  .form-checkbox.align-items-center {
+    flex-grow: 1;
+    width: 50%;
+  }
+}
+
+.form-check-input {
+  margin-left: 0;
+}
+
+#reason-fieldset label {
+  margin-left: 1.25rem;
+}
