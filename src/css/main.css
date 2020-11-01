@@ -664,3 +664,25 @@ input[type=number] {
 .fieldset-error {
   border: 3px solid red;
 }
+
+#shortcuts {
+  text-align: center;
+}
+
+button.btn.btn-secondary.shortcut {
+  margin-right: 5px;
+}
+
+.titre-2.shortcuts {
+  text-align: center;
+}
+
+#reason-fieldset {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.form-checkbox.align-items-center {
+  flex-grow: 1;
+  width: 33%;
+}
